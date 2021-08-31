@@ -37,7 +37,12 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-       return Posts::created($request->except('_token'));
+        Posts::created([
+            'title'=>$request->title,
+            'body'=>$request->body
+        ]);
+
+        return "New Post is Added";
     }
 
     /**
