@@ -39,7 +39,7 @@ class passportAuthController extends Controller
             //generate the token for the user
             $user_login_token= auth()->user()->createToken('PassportExample@Section.io')->accessToken;
             //now return this token on success login attempt
-            return auth()->user() ;
+            return response()->json(['token' => $user_login_token], 200);
         }
         else{
             //wrong login credentials, return, user not authorised to our system, return error code 401
