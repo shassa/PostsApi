@@ -18,7 +18,7 @@
  - ### Laravel Factories & seed
     Create random Posts
  - ### Resources
-    Return Json Request   
+    Return JsonResource   
     
 ## Methods 
 - Index() : Posts
