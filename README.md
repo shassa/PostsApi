@@ -1,25 +1,44 @@
 
-## About PostsApi
+<p align="center"> PostsApi </p>
 
-Simple api to get the ('title','body') from postes table .routes show all data ,one post selected with id,group of 10 postes and add a new post . all routes protected with passport laravel package.
-
-## Installation
-- composer
-- laravel/ui
-- laravel/passport
-- postman
+# Introduction
+<hr>
+ ``` - Githup link:<a href="https://github.com/shassa/PostsApi">PostApi</a>
+     - Item Version : v 1.0
+     - Author : Nashwa Hassan  ```
 
 
-Install And Configure Laravel Passport
-Laravel Passport provides a full 0Auth2 server implementation for Laravel applications. With it, you can easily generate a personal access token to uniquely identify a currently authenticated user. This token will then be attached to every request allowing each user access protected routes. To begin, stop the application from running by hitting CTRL + C on your computer’s keyboard and install Laravel Passport using Composer as shown here:
+## Abilities
+<p>Simple api to get the ('title','body') from postes table .<br>Routes show all data ,one post selected with id,group of 10 postes and add a new post .<br> All routes protected with passport laravel package.</p>
 
-``` $ composer require laravel/passport ```
+## Main Components
+ - ### laravel\passport
+     Get & Authorize Token
+ - ### Laravel Factories & seed
+    Create random Posts
+ - ### Resources
+    Return Json Request   
+    
+## Methods 
+- Index() : Posts
+  <p> Show all posts </p>
+- Show() : Post
+ <p> Show specific posts </p> 
+- Showgroub(): Posts  
+ <p> Paginate 10 posts </p>
+- Store() : Post
+ <p> Add new post to database </p>
 
-Once the installation is complete, a new migration file containing the tables needed to store clients and access tokens will have been generated for your application. Run the following command to migrate your database:
 
-``` $ php artisan migrate ```
-Next, to create the encryption keys needed to generate secured access tokens, run the command below:
+## Install And Configure Laravel Passport
+- Laravel Passport provides a full 0Auth2 server implementation for Laravel applications. With it, you can easily generate a personal access token to uniquely identify a currently authenticated user.
 
-``` $ php artisan passport:install ```
+- ``` $ composer require laravel/passport ```
 
+- Once the installation is complete, a new migration file containing the tables needed to store clients and access tokens will have been generated for your application. Run the following command to migrate your database:
+
+- ``` $ php artisan migrate ```
+- Next, to create the encryption keys needed to generate secured access tokens, run the command below:
+
+- ``` $ php artisan passport:install ```
 
