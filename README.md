@@ -1,11 +1,13 @@
 
-<p align="center"> PostsApi </p>
+# <p align="center"> PostsApi </p>
 
 # Introduction
 <hr>
- ``` - Githup link:<a href="https://github.com/shassa/PostsApi">PostApi</a>
+ ``` 
+     - Githup link:<a href="https://github.com/shassa/PostsApi">PostApi</a>
      - Item Version : v 1.0
-     - Author : Nashwa Hassan  ```
+     - Author : Nashwa Hassan 
+   ```
 
 
 ## Abilities
@@ -23,11 +25,11 @@
 - Index() : Posts
   <p> Show all posts </p>
 - Show() : Post
- <p> Show specific posts </p> 
+  <p> Show specific posts </p> 
 - Showgroub(): Posts  
- <p> Paginate 10 posts </p>
+   <p> Paginate 10 posts </p>
 - Store() : Post
- <p> Add new post to database </p>
+   <p> Add new post to database </p>
 
 
 ## Install And Configure Laravel Passport
