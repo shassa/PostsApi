@@ -3,12 +3,11 @@
 
 # Introduction
 <hr>
- ``` 
-     - Githup link:<a href="https://github.com/shassa/PostsApi">PostApi</a>
-     - Item Version : v 1.0
-     - Author : Nashwa Hassan 
-   ```
-
+    - Githup link : <a href="https://github.com/shassa/PostsApi">PostApi</a> <br>
+    - Item Version : v 1.0 <br>
+    - Author : Nashwa Hassan <br>
+   
+<hr>
 
 ## Abilities
 <p>Simple api to get the ('title','body') from postes table .<br>Routes show all data ,one post selected with id,group of 10 postes and add a new post .<br> All routes protected with passport laravel package.</p>
